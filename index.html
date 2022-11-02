@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My resume</title>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+        integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <header>
+        <nav class="nav-wrapper blue lighten-1">
+            <a href="#" class="sidenav-trigger" data-target="mobile-menu">
+                <i class="material-icons">menu</i>
+            </a>
+            <div class="container">
+                <a href="#" class="brand-logo left center-align hide-on-med-and-down">My Resume</a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="#about_me">About me</a></li>
+                    <li><a href="#">Education</a></li>
+                    <li><a href="#">Experience</a></li>
+                    <li><a href="#">Milestones</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                </ul>
+                <ul class="sidenav blue lighten-1" id="mobile-menu">
+                    <li><a href="#about_me">About me</a></li>
+                    <li><a href="#">Education</a></li>
+                    <li><a href="#">Experience</a></li>
+                    <li><a href="#">Milestones</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section class="container section"id="about_me">
+        <div class="row">
+            <div class="col s12" >
+                <div class="col s10  l2">
+
+
+                    <div class="card" id="card_about_me">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator responive-img z-depth-2" src="img/adis.jpeg">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">Click to more about me<i
+                                    class="material-icons right">more_vert</i></span>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4">Quick introduction<i
+                                    class="material-icons right">close</i></span>
+                            <ul id="list_introduction">
+                                <br>
+                                <li>
+                                    My name is Adis Aljić and I am a Bachelor of Science in Physics (240 ECTS) with
+                                    areas of
+                                    competence in JavaScript, DMBS, Nodejs, Medical Physics and High Energy Physics as
+                                    well
+                                    as in
+                                    teaching Physics.
+                                </li>
+                                <li>
+
+                                    I consider myself to be a team player and if necessary a team leader.
+                                </li>
+                                <li>
+                                    I will also describe myself as very objectiv, ambitious, responsible and committed.
+                                </li>
+                                <li>
+
+                                    In addition I have excellent communication and teambuilding skills which I have
+                                    developed during my education and part time jobs.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s10  l4 offset-l4" id="contact_list">
+                    <h3>Contact Information</h3>
+                    <ul id="contact_list_text">
+                        <li><a href="mailto:adis.qm@gmail.com" class=" btn-floating btn-small red darken-4"
+                                title="adis.qm@gmail.com" data-tooltip="Gmail">
+                                <i class="material-icons">email</i>
+                            </a> adis.qm@gmail.com</li>
+                            
+                        <li><a href="#" class=" btn-floating btn-small red darken-4" title="Phone number">
+                                <i class="material-icons">phone</i>
+                            </a> +387 61 656 983</li>
+                    </ul>
+                    <ul id="contact_list_icons">
+                        <li><a href="https://www.facebook.com/adis.aljic/" title="Facebook"
+                                class=" btn-floating btn-small blue darken-4" data-tooltip="Facebook">
+                                <i class="fab fa-facebook"></i>
+                            </a></li>
+                        <li><a href="https://github.com/adis-aljic" title="Github"
+                                class=" btn-floating btn-small black darken-4" data-tooltip="Github">
+                                <i class="fab fa-github"></i>
+                            </a></li>
+                        <li><a href="https://www.linkedin.com/in/adis-aljic-056b13239/"
+                                class=" btn-floating btn-small blue darken-4" title="Linkedin">
+                                <i class="fab fa-linkedin"></i>
+                            </a></li>
+                    </ul>
+                </div>
+                
+
+            </div>
+        </div>
+
+    </section>
+
+
+    <section class="container section" id="experience">
+        <div class="row">
+
+        </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+    <script src="./index.js"></script>
+</body>
+
+</html>

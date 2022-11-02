@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(./img/background.jpg);
+}
+
+#about_me {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 10rem;
+}
+
+#card_about_me {
+  width: 23rem;
+  border-radius: 15px;
+  height: 35rem;
+}
+#card_about_me img {
+  border-radius: 15px;
+}
+
+#contact_list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#contact_list #contact_list_text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#contact_list #contact_list_text li {
+  margin-top: 1rem;
+}
+#contact_list #contact_list_icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin: 1rem;
+}
+#contact_list h3 {
+  text-align: center;
+}/*# sourceMappingURL=index.css.map */
